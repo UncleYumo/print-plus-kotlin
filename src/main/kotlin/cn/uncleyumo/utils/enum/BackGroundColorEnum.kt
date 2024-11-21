@@ -1,4 +1,4 @@
-package on.uncleyumo.utils.enum
+package cn.uncleyumo.utils.enum
 
 /**
  * @author uncle_yumo

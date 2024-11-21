@@ -20,7 +20,7 @@
 
 ```xml
 <dependency>
-    <groupId>on.uncleyumo.utils</groupId>
+    <groupId>cn.uncleyumo.utils</groupId>
     <artifactId>print-plus-kotlin</artifactId>
     <version>1.1.0</version>
 </dependency>
@@ -33,7 +33,7 @@
 `LogPrinter` 类提供了不同级别的日志打印方法，包括 `info`, `debug`, `warn`, 和 `error`。这些方法会自动添加时间戳和相应的颜色样式。
 
 ```kotlin
-import on.uncleyumo.utils.LogPrinter
+import cn.uncleyumo.utils.LogPrinter
 
 fun main() {
     LogPrinter.info("This is an info message.")
@@ -48,7 +48,7 @@ fun main() {
 `ColorPrinter` 类提供了多种颜色和背景颜色的打印方法，可以用于自定义文本的显示效果。
 
 ```kotlin
-import on.uncleyumo.utils.ColorPrinter
+import cn.uncleyumo.utils.ColorPrinter
 
 fun main() {
     ColorPrinter.printlnFontRed("This text is red.")
@@ -64,8 +64,8 @@ fun main() {
 `MetaPrinter` 是一个单例类，允许你通过链式调用的方法来自定义字体颜色、背景颜色和字体样式。以下是一个示例：
 
 ```kotlin
-import on.uncleyumo.utils.pojo.MetaPrinter
-import on.uncleyumo.utils.enum.*
+import cn.uncleyumo.utils.pojo.MetaPrinter
+import cn.uncleyumo.utils.enum.*
 
 fun main() {
     MetaPrinter
@@ -131,7 +131,7 @@ print-plus-kotlin/
 ├── src/
 │   ├── main/
 │   │   ├── kotlin/
-│   │   │   └── on.uncleyumo.utils/
+│   │   │   └── cn.uncleyumo.utils/
 │   │   │       ├── LogPrinter.kt
 │   │   │       ├── ColorPrinter.kt
 │   │   │       └── pojo/
@@ -139,7 +139,7 @@ print-plus-kotlin/
 │   │   └── resources/
 │   └── test/
 │       └── kotlin/
-│           └── on.uncleyumo.utils/
+│           └── cn.uncleyumo.utils/
 │               └── LogPrinterTest.kt
 ├── pom.xml
 └── README.md
@@ -164,10 +164,10 @@ print-plus-kotlin/
 以下是一个完整的示例，展示了如何使用 `print-plus-kotlin` 进行日志记录和自定义样式打印：
 
 ```kotlin
-import on.uncleyumo.utils.LogPrinter
-import on.uncleyumo.utils.ColorPrinter
-import on.uncleyumo.utils.pojo.MetaPrinter
-import on.uncleyumo.utils.enum.*
+import cn.uncleyumo.utils.LogPrinter
+import cn.uncleyumo.utils.ColorPrinter
+import cn.uncleyumo.utils.pojo.MetaPrinter
+import cn.uncleyumo.utils.enum.*
 
 fun main() {
     // 日志打印

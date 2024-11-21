@@ -1,8 +1,8 @@
-package on.uncleyumo.utils.pojo
+package cn.uncleyumo.utils.pojo
 
-import on.uncleyumo.utils.enum.BackGroundColorEnum
-import on.uncleyumo.utils.enum.FontStyleEnum
-import on.uncleyumo.utils.enum.FrontColorEnum
+import cn.uncleyumo.utils.enum.BackGroundColorEnum
+import cn.uncleyumo.utils.enum.FontStyleEnum
+import cn.uncleyumo.utils.enum.FrontColorEnum
 
 /**
  * @author uncle_yumo
@@ -34,7 +34,7 @@ object MetaPrinter {
     }
 
     fun getProcessedString(text: String): String {
-        val processedString = "\u001B[${fontStyle};${fontColor};${backgroundColor}m$text\u001B[0m"
+        val processedString = "\u001B[$fontStyle;$fontColor;${backgroundColor}m$text\u001B[0m"
         resetAllStyles()
         return processedString
     }

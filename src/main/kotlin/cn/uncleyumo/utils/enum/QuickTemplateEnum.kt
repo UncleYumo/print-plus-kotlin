@@ -1,6 +1,6 @@
-package on.uncleyumo.utils.enum
+package cn.uncleyumo.utils.enum
 
-import on.uncleyumo.utils.pojo.MetaPrinter
+import cn.uncleyumo.utils.pojo.MetaPrinter
 
 /**
  * @author uncle_yumo
