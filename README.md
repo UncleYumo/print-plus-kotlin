@@ -26,6 +26,12 @@
 </dependency>
 ```
 
+使用Gradle引入依赖的方式如下：
+```kts
+// https://mvnrepository.com/artifact/cn.uncleyumo.utils/print-plus-kotlin
+implementation("cn.uncleyumo.utils:print-plus-kotlin:1.1.0")
+```
+
 ### 基本用法
 
 #### 日志打印
